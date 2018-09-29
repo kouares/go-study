@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	v, _ := hoge()
+  v, _ := hoge()
 
-	fmt.Println(v)
+  fmt.Println(v)
 }
 
 func hoge() (string, string) {
-	return "hogehoge", "fugafuga"
+  return "hogehoge", "fugafuga"
 }
